@@ -19,7 +19,7 @@
                 <a class="nav-link" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item active offset-3">
-                <a class="nav-link" aria-current="page" href="/">Create post</a>
+                <a class="nav-link" aria-current="page" href="{{route('post.create')}}">Create post</a>
             </li>
         </ul>
         <form class="d-flex" action="{{route('post.index')}}">
