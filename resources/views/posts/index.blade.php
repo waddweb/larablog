@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.layout', ['title'=>'Home page / Blog-App / Laravel 8'])
 
 @section('content')
 

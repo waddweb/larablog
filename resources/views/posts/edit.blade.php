@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.layout', ['title'=>"Edit Post No $post->post_id"])
 
 @section('content')
 
