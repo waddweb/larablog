@@ -21,3 +21,4 @@ use App\Http\Controllers\PostController;
 Route::resource('/', PostController::class);
 Route::get('post/', 'App\Http\Controllers\PostController@index')->name('post.index');
 Route::get('post/create', 'App\Http\Controllers\PostController@create')->name('post.create');
+Route::post('post/', 'App\Http\Controllers\PostController@store')->name('post.store');
