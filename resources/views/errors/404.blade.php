@@ -4,6 +4,6 @@
     <div class="card">
         <h2>ERROR: 404 / Page not found</h2>
     </div>
-    <a href="/" class"btn btn-outline-primary">HOME</a>
+    <a href="/" class="btn btn-outline-primary">HOME</a>
 
 @endsection
